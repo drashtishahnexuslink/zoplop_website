@@ -3,7 +3,7 @@ import { Phone, Mail, MessageCircle, MapPin, Clock } from 'lucide-react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
-import { toast } from './ui/use-toast';
+import { toast } from '../hooks/use-toast';
 import './ContactSection.css';
 
 const ContactSection = () => {
