@@ -1,6 +1,6 @@
 .services-section {
-  padding: 6rem 2rem;
-  background: white;
+  padding: 100px 2rem;
+  background: #FFFFFF;
 }
 
 .section-container {
@@ -10,37 +10,42 @@
 
 .section-header {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 60px;
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: 40px;
   font-weight: 800;
-  color: #1f2937;
-  margin-bottom: 1rem;
+  color: #111827;
+  margin-bottom: 12px;
+  font-family: 'Inter', sans-serif;
 }
 
 .section-subtitle {
-  font-size: 1.125rem;
-  color: #6b7280;
+  font-size: 18px;
+  color: #6B7280;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
+  gap: 28px;
 }
 
 .service-card {
   overflow: hidden;
   transition: all 0.3s ease;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
   cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
 
 .service-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.08);
 }
 
 .service-image-wrapper {
@@ -58,22 +63,25 @@
 }
 
 .service-card:hover .service-image {
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
 .service-content {
-  padding: 1.5rem;
+  padding: 28px;
 }
 
 .service-title {
-  font-size: 1.5rem;
+  font-size: 22px;
   font-weight: 700;
-  color: #1f2937;
-  margin-bottom: 0.75rem;
+  color: #111827;
+  margin-bottom: 12px;
+  font-family: 'Inter', sans-serif;
 }
 
 .service-description {
-  font-size: 1rem;
-  color: #6b7280;
-  line-height: 1.6;
+  font-size: 15px;
+  color: #6B7280;
+  line-height: 1.7;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
